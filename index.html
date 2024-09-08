@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/IWbadge.ico">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Ice Warriors Community | RSK</title>
+</head>
+<body>
+<div id="flex-container">
+    <header id="home">
+        <div class="container">
+            <img src="./img/pinguinos.gif" id="header-video"> 
+            <div class="header-content" style="padding-left: 40px;">
+                <h1 class="header-title">Ice Warriors Community</h1>
+                <h6 class="header-mono">Don't Freeze Up!</h6>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="nav-header">
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home"><span>Home</span></a></li>
+            <li><a href="#empire"><span>Empire</span></a></li>
+            <li><a href="#battle"><span>Battle Guide</span></a></li>
+            <li><a href="#ranks"><span>Ranks</span></a></li>
+            <li><a href="#fame"><span>Hall of Fame</span></a></li>
+            <li><a href="#safety"><span>Online Safety</span></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="intro">
+            <h1 class="logo-header">
+                <span class="logo"><img src="./img/IWbadge.png"></span><br>
+                <span class="logo edu-au-vic-wa-nt-hand-normal" style="font-size: larger;">Ice</span><span class="logo edu-au-vic-wa-nt-hand-normal" style="font-size: larger; padding-left: 20px;">Warriors</span><span class="logo edu-au-vic-wa-nt-hand-normal" style="font-size: larger; padding-left: 20px;">Community</span>
+            </h1>
+        </div>
+    
+        <section>  
+            <div class="container-fluid">
+                <div class="carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-item active">
+                            <img src="img/iwpeng.png" alt="IW1">
+                            <div class="description"><h4 class="edu-au-vic-wa-nt-hand-normal" style="padding-bottom: 20px; color:rgb(90, 90, 250);">About Us</h4>
+                                <p>
+                                    The Ice Warriors is a group that hosts events across games like Roblox, Club Penguin, Minecraft, and more. Whether you're seeking game partners or want to connect with friendly players, you're in the right place! Our active admins and mods organize daily events on various platforms, offering opportunities to meet new people and enjoy your favorite games. Join our welcoming community today and be part of our exciting legacy!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/boost.png" alt="Boost">
+                            <div class="description"><h4 class="edu-au-vic-wa-nt-hand-normal" style="padding-bottom: 20px; color:rgb(90, 90, 250)">Giveaways and Prizes!</h4>
+                                <p>
+                                    Join the fun with Ice Warriors and snag amazing rewards! Attend our exciting events and stand a chance to win awesome prizes like Discord Nitro, Robux, Steam gift cards, and more! Every event is packed with opportunities to score big. Don’t miss out—participate, win, and enjoy the perks!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img style="max-width: 220px;" src="img/IWDab.png" alt="Boost">
+                            <div class="description"><h4 class="edu-au-vic-wa-nt-hand-normal" style="padding-bottom: 20px; color:rgb(90, 90, 250)">Climb the Ranks with Us!</h4>
+                                <p>
+                                    Ready to level up? Gain ranks by staying active in chat, helping others, and attending our events! Your journey to the top starts here—prove your dedication and climb the ranks to achieve the highest position. Join us, make your mark, and show what you're made of!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+            </div>
+                    <div class="container-fluid">
+                        <div class="row justify-content-start align-items-start g-2">
+                            <div class="col" style="text-align: center;">
+                                <h4 style="text-align: center; color:rgb(90, 90, 250)" class="edu-au-vic-wa-nt-hand-normal">Videos</h4>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/XE95ikYJE7s?si=NSPTqM_dU8BQdrlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <br>
+                                <iframe width="400" height="225" src="https://www.youtube.com/embed/zcuLFysAoos?si=9tfQT_uLdAEDIy87" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="col">
+                                <h4 style="text-align: center; padding-bottom: 20px; color:rgb(90, 90, 250)" class="edu-au-vic-wa-nt-hand-normal">Frequently Asked Questions</h4>
+                                <h6>"When can I post GIFs on the Discord server?"</h6>
+                                <p>
+                                    To maintain a safe environment, only users ranked Warrant Officer or higher are allowed to post GIFs, helping us prevent inappropriate content.
+                                </p>
+                                <h6 style="border-top: 1px solid rgb(60, 60, 240); padding-top: 1.5em; margin-top: 1.5em;">"When can I post images on the Discord server?"</h6>
+                                <p>
+                                    Posting images is reserved for users ranked above Captain to ensure an extra level of control over what is shared on the server.
+                                </p>
+                                <h6 style="border-top: 1px solid rgb(60, 60, 240); padding-top: 1.5em; margin-top: 1.5em;">"How can I join the staff team?"</h6>
+                                <p>
+                                    Stay active on Discord, attend events, help others, and recruit new members—these are the essentials to becoming a part of our staff team! Show your dedication, and you might be next in line!
+                                </p>
+                                <h6 style="border-top: 1px solid rgb(60, 60, 240); padding-top: 1.5em; margin-top: 1.5em;">"How can I partner with Ice Warriors?"</h6>
+                                <p>
+                                    Great news! We’re open to new partnerships. To be eligible, your server must have at least 150 members, be friendly, and comply with all Discord TOS. Ready to collaborate? Let’s team up!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </section>     
+        </div>
+    </main> 
+    <footer>
+        <div class="container">
+            <a target="_blank" href="https://steamcommunity.com/id/snowrebel"><img src="img/steam.png"></a>
+            <a target="_blank" href="https://discord.gg/kC6DRzG6t9"><img style="height: 60px;" src="img/discord.gif"></a>
+            <a target="_blank" href="https://www.youtube.com/channel/UCpls24nKp0gT6GuCaz5QReA"><img src="img/youtube.gif"></a>
+            <a target="_blank" href="https://www.instagram.com/kvn_riossawczuk/"><img style="border-radius: 29%;" src="img/instagram.png"></a>
+            <p>&copy;2024. Made by RSK (Rios Sawczuk Kevin).</p>
+        </div>
+    </footer>
+</div>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/scripts.js"></script>
+</body>
+</html>
